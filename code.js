@@ -42,6 +42,14 @@ function isVowel(input) {
     }
 }
 
+function add(a, b) {
+    if (isNaN(a) || isNaN(b)) {
+        return "NaN";
+    } else {
+        return Number(a)+Number(b);
+    }
+}
+
 // function add(a, b) {
 //     if (typeof a=== "string" || typeof b==="string") {
 //         return false;
