@@ -32,6 +32,16 @@ function isEven(a) {
     }
 }
 
+function isVowel(input) {
+    if (input==="a" || input==="e" || input==="i" || input==="o" || input==="u") {
+        return true;
+    } else if (input==="A"|| input==="E" || input==="I" || input==="O" || input==="U") {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 // function add(a, b) {
 //     if (typeof a=== "string" || typeof b==="string") {
 //         return false;
